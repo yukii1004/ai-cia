@@ -86,7 +86,6 @@ def update(frame):
     
     return visited_plot, path_plot
 
-# Create the animation
 anim = FuncAnimation(fig, update, frames=algo_instance.solve,
                      init_func=init, blit=True, interval=50,
                      repeat=False, save_count=1000)  # Limit frames to 1000
