@@ -1,5 +1,6 @@
 # Search Algorithms Implementation
 
+
 ## CIA-1:
 > The 12 search algorithms implemented in this repository are:
 1. British Museum Search

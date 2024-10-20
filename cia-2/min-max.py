@@ -85,7 +85,6 @@ def show_graph(root, best_move):
         for child in node.children:
             G.add_edge(node.name, child.name)
             add_edges(child, level + 1)
-    
     add_edges(root)
     
     node_colors = [G.nodes[node]['color'] for node in G.nodes()]
