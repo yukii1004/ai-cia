@@ -33,6 +33,4 @@ class DFS:
                     if self.is_valid_move(next_x, next_y):
                         new_path = current_path + [(next_x, next_y)]
                         stack.append((next_x, next_y, new_path))
-        
-        # If no path is found
         yield [], list(self.visited), False
